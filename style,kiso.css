@@ -1,0 +1,35 @@
+@charset "UTF-8";
+html{font-size: 100%;}
+
+/*HEADER*/
+.page-header{position: fixed;top: 0;left: 0;width: 100%;z-index: 1000;background-color: #ffffff;}
+.logo {
+  margin top: 0;
+  font-size: 3rem;
+  color: #000000;
+  font-family: "Alex Brush", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+li a{text-decoration: none;}
+.main-nav {display: flex;
+font-size: 1rem;
+text-transform: uppercase;
+margin-top: 34px;
+list-style: none;}
+.main-nav li{margin-left: 36px;}
+.main-nav a{color: black;}
+.main-nav a:hover{color: red;}
+.page-header{display: flex;justify-content: space-between;}
+.kiso-content {margin-top: 10%;}
+.kiso-content h2{font-size: 2.000rem;color: #000000; }
+.kiso-content p {
+  font-family: "Shippori Mincho B1", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.sisokenzoku-content p {
+  font-family: "Shippori Mincho B1", serif;
+  font-weight: 400;
+  font-style: normal;
+}
